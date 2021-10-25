@@ -1,0 +1,91 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --header-height: 873px;
+    --header-nav-height: 104px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    background-color: white;
+    max-width: 150px;
+    color: #14b9d5;
+    margin: auto;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+
+@keyframes fadeIn {
+    from {
+        
+        opacity: 0.25;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.button{
+    text-decoration: none;
+    display: inline-block;
+    
+    padding: 11px 31px;
+    border-radius: 30px;
+    color: var(--white-color);
+    font-size: 1.4rem;
+}
+
+.button--yellow {
+    background-color: #ffd205;
+}
+
+.button--pink {
+    background-color: #f76570;
+}
+
+.button--purple {
+    background-color: #ba71da;
+}
+
+.yellow-gradient {
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+}
+
+.pink-gradient {
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%);
+}
+
+.purple-gradient {
+    background: linear-gradient(to right, #ba71da 0%, #da717b 100%);
+}
+
+.green-gradient {
+    background: linear-gradient(to right, #1bbc9b 0%, #1bbc63 100%);
+}
+
+.orange-gradient {
+    background: linear-gradient(to right, #f3a46b 0%, #f3c96b 100%);
+}
+
+.blue-gradient {
+    background: linear-gradient(to right, #14b9d5 0%, #14d5b1 100%);
+}
+
+
+
+
